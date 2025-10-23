@@ -82,17 +82,13 @@ postassignyears = 2022:2023
 yearsindata = 2011:2022  
 postassignyears = 2023
 
-# 2011-2020 in, 2021-2023 clustered after
-yearsindata = 2011:2020  
-postassignyears = 2021:2023
+# 2012-2023 in, 2011 clustered after
+yearsindata = 2012:2023 
+postassignyears = 2011
 
-# 2011-2022 in, 2023 clustered after
-yearsindata = 2011:2022  
-postassignyears = 2023
-
-# 2011-2021 in, 2022-2023 clustered after
-yearsindata = 2011:2021  
-postassignyears = 2022:2023
+# 2013-2023 in, 2011-2012 clustered after
+yearsindata = 2013:2023 
+postassignyears = 2011:2012
 
 #clustering
 data = filter(data, LANDING_YEAR %in% yearsindata)
