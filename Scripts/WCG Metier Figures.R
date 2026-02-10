@@ -215,9 +215,9 @@ A4
 
 ggsave("Figure A4 - Proportion of EVR by Speices for Each Cluster.jpg",  
        plot = A4, 
-       width = 15,  # Width in inches
-       height = 10, # Height in inches
-       units = "in", # Units can be 'in', 'cm', or 'mm'
+       width = 15, 
+       height = 10, 
+       units = "in", 
        dpi = 300)
 
 
@@ -341,9 +341,9 @@ F3
 
 ggsave("Figure 3- Proportion of Gear Used in Each Metier.jpg",  
        plot = F3, 
-       width = 15,  # Width in inches
-       height = 10, # Height in inches
-       units = "in", # Units can be 'in', 'cm', or 'mm'
+       width = 15,  
+       height = 10, 
+       units = "in",
        dpi = 300)
 
 #State-level EVR in each metier/cluster
